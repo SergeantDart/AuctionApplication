@@ -1,0 +1,25 @@
+Our team  consisting of 
+
+Dumitrascu Antonio-Sebastian,
+Dragne Alina-Gabriela,
+Dumitrache Ioana,
+Iana Delia
+
+has implemented a TCP server-client auction application using JAVA 1.8 Technologies.
+
+Server is capable of processing multiple clients concurrently.
+
+A client can be:
+
+-- buyer, which can perform the following console commands :
+    => list : lists all the currently auctioned items
+    => bid <itemName> <moneyAmount> : makes a bid on a certain item on behalf of the logged in buyer
+    => exit : finish the current session
+    
+-- seller, which can perform the following console commands :
+	=> add <itemName> : adds a new item to the auction list
+	=> list : lists all the currently auctioned items
+	=> sell <itemName> : sells the mentioned item to the highest bider if available
+	=> exit : finish the current session
+	
+P.S. : Server-client interactions are limited to the mandatory exchange of streams (get the input stream, and only then can respond back) 
